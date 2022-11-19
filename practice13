@@ -14,6 +14,6 @@ for i in range(1, tickets + 1):
         result += cost
 if tickets > 3:
     result_1 = int(result - result * 0.1)
-    print(f'Общая стоимость билетов равна {result_1} рублей')
+    print(f'Общая стоимость билетов со скидкой 10 % равна {result_1} рублей')
 else:
     print(f"Общая стоимость билетов равна: {result} рублей")
